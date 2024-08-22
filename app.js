@@ -69,6 +69,9 @@ function checkBoss() {
 function drawBoss() {
   let bossHealth = document.getElementById('bossHealth')
   bossHealth.innerText = boss.health
+  let healthPercent = boss.health / boss.maxHealth * 100
+  let healthBar = document.getElementById('healthBarBoss')
+  healthBar.innerHTML = `<div class="progress-bar healthBarBoss" style="width: ${healthPercent}%"></div>`
   let bossLevel = document.getElementById('bossLevel')
   bossLevel.innerText = boss.level
   let monstersSlain = document.getElementById('monsterCount')

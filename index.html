@@ -35,11 +35,14 @@
         <span>Health Potion: <span class="gold">5 gold</span> (click character)</span>
       </h6>
     </section>
-    <section class="row justify-content-center text-end">
+    <section class="row justify-content-center">
       <div id="boss" class="col-8 card">
         <h1>Stabby</h1>
         <img onclick="attackBoss()" src="https://images.fallout.wiki/5/52/CleaverFNV.png" alt="">
         <h5>Health:
+          <div id="healthBarBoss" class="progress" role="progressbar">
+            <div class="progress-bar healthBarBoss" style="width: 100%"></div>
+          </div>
           <div id="bossHealth">Health: </div>
         </h5>
         <h5>Level:

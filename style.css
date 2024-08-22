@@ -19,5 +19,9 @@
 }
 
 h5 div {
-  color: rgb(214, 0, 0);
+  color: #d60000;
+}
+
+.healthBarBoss {
+  background-color: #d60000;
 }
