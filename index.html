@@ -28,20 +28,17 @@
           <h6>Health: </h6>
         </div>
       </div>
-      <h6>
-
+      <h6 class="col-3 card">Party Gold:
         <div id="partyGold" class="col">party gold: </div>
       </h6>
-      <h6 class="col card">Store
-        <span>Health Potion: 5 gold (click character)</span>
+      <h6 class="col-3 card">Store
+        <span>Health Potion: <span class="gold">5 gold</span> (click character)</span>
       </h6>
     </section>
-    <section class="row justify-content-center">
+    <section class="row justify-content-center text-end">
       <div id="boss" class="col-8 card">
         <h1>Stabby</h1>
-        <img onclick="attackBoss()"
-          src="https://e7.pngegg.com/pngimages/675/1007/png-clipart-chef-s-knife-kitchen-knives-cleaver-butcher-knife.png"
-          alt="">
+        <img onclick="attackBoss()" src="https://images.fallout.wiki/5/52/CleaverFNV.png" alt="">
         <h5>Health:
           <div id="bossHealth">Health: </div>
         </h5>
@@ -52,11 +49,6 @@
           <div id="monsterCount">monster's defeated: </div>
         </h5>
       </div>
-    </section>
-    <section class="row">
-      <h6 class="col card">Store
-        <span>Health Potion: 5 gold (click character)</span>
-      </h6>
     </section>
   </main>
   <script src="app.js"></script>

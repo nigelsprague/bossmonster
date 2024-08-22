@@ -1,5 +1,6 @@
 #boss>img {
   cursor: pointer;
+  max-height: 60vh;
 }
 
 .hero-bg {
@@ -10,6 +11,11 @@
 
 .card {
   background-color: rgba(24, 24, 24, 0.589);
+}
+
+#partyGold,
+.gold {
+  color: goldenrod;
 }
 
 h5 div {
