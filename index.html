@@ -11,24 +11,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="dark" class="hero-bg">
   <main class="container-fluid">
     <section class="row">
       <div id="Slate Slabrock" class="col-3 card">
         <h6>Slate Slabrock</h6>
         <h1 onclick="healHero('Slate Slabrock')">🧎‍♀️</h1>
         <div class="health">
-          <h6>health: </h6>
+          <h6>Health: </h6>
         </div>
       </div>
       <div id="Swift Ironstag" class="col-3 card">
         <h6>Swift Ironstag</h6>
         <h1 onclick="healHero('Swift Ironstag')">🧝</h1>
         <div class="health">
-          <h6>health: </h6>
+          <h6>Health: </h6>
         </div>
       </div>
-      <div id="partyGold" class="col">party gold: </div>
+      <h6>
+
+        <div id="partyGold" class="col">party gold: </div>
+      </h6>
+      <h6 class="col card">Store
+        <span>Health Potion: 5 gold (click character)</span>
+      </h6>
     </section>
     <section class="row justify-content-center">
       <div id="boss" class="col-8 card">
@@ -36,22 +42,21 @@
         <img onclick="attackBoss()"
           src="https://e7.pngegg.com/pngimages/675/1007/png-clipart-chef-s-knife-kitchen-knives-cleaver-butcher-knife.png"
           alt="">
-
-        <div>Health:
-          <div id="bossHealth">health: </div>
-        </div>
-        <span>Level:
+        <h5>Health:
+          <div id="bossHealth">Health: </div>
+        </h5>
+        <h5>Level:
           <div id="bossLevel">level: </div>
-        </span>
-        <h6>Monsters Slain
+        </h5>
+        <h5>Monsters Slain
           <div id="monsterCount">monster's defeated: </div>
-        </h6>
+        </h5>
       </div>
     </section>
     <section class="row">
-      <div class="col card">Store
+      <h6 class="col card">Store
         <span>Health Potion: 5 gold (click character)</span>
-      </div>
+      </h6>
     </section>
   </main>
   <script src="app.js"></script>

@@ -96,7 +96,7 @@ function drawParty() {
   heroes.forEach(hero => {
     let heroCard = document.getElementById(hero.name)
     let healthStat = heroCard.querySelector('.health')
-    healthStat.innerHTML = `<h6 class="health">health: ${hero.health}</h6>`
+    healthStat.innerHTML = `<h6 class="health">Health: ${hero.health}</h6>`
   })
 }
 
