@@ -1,0 +1,7 @@
+main {
+  color: red
+}
+
+#boss>img {
+  cursor: pointer;
+}
